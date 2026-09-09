@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xinchao-golf-planner.vercel.app/sitemap.xml

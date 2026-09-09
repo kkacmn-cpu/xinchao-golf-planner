@@ -1,0 +1,656 @@
+{
+  "site": "planner",
+  "origin": "https://xinchao-golf-planner.vercel.app",
+  "built_at": "2026-09-09T03:59:37.304Z",
+  "source_registry": "XINCHAO_NATIONWIDE_AEO_STRATEGY_COVERAGE_V1_20260821",
+  "source_registry_sha256": "AD6E7F2DEA38F5C060CA423793CEC2CB1C7B676993274117ACADA693592C360D",
+  "price_dataset": "master-2026-07-distribution-5-city",
+  "price_generated_at": "2026-07-28T06:13:15.835Z",
+  "course_count": 74,
+  "region_count": 29,
+  "current_priced_course_count": 30,
+  "url_count": 114,
+  "tracker_id": "xinchao-golf-planner",
+  "files": [
+    {
+      "path": "404.html",
+      "bytes": 4585,
+      "sha256": "26401C6081E085DD011B8F1C8F8D5C1D26AFDCEA7BC66A0C26209C524C8B011E"
+    },
+    {
+      "path": "assets/accessibility.css",
+      "bytes": 252,
+      "sha256": "C686F301BFAB505ADC4468E1D60C0B84CD5D2864679568792F7305F9AC4B53F8"
+    },
+    {
+      "path": "assets/catalog.json",
+      "bytes": 56982,
+      "sha256": "8E83B644D7C3593D241BC5C0674BAFCC2EFBC45D0F4AADEAAEE0ADD7C6209F20"
+    },
+    {
+      "path": "assets/common.css",
+      "bytes": 11640,
+      "sha256": "17DADFB761788040FA4834047DEAE0E184C6315C5B4170D33C69669A8208439E"
+    },
+    {
+      "path": "assets/hero-golf.webp",
+      "bytes": 196568,
+      "sha256": "5F0C6F6D9656EF703F4107B45F585A10B9E2F52C2480B87D16A7CEF0790BE138"
+    },
+    {
+      "path": "assets/logo.webp",
+      "bytes": 7166,
+      "sha256": "15D51BE832F6379FCBEE6FC632EFB0A1006F4F2D566EA5FDE62469CC427D7FC1"
+    },
+    {
+      "path": "assets/planner-runtime.js",
+      "bytes": 7798,
+      "sha256": "7DEE959989D986FAA18189B20F4352B5799424F6C2489FA2D9BF39217BE406CC"
+    },
+    {
+      "path": "assets/planner.css",
+      "bytes": 5300,
+      "sha256": "F52EBEF7EAB9A153F1BFB7003663DC82552D13D282D02FD9C4208D55605718DD"
+    },
+    {
+      "path": "golf/bacgiang/bacgiang-amber-hill-golf-and-resort/index.html",
+      "bytes": 67286,
+      "sha256": "4D7BC4EAF7021FB4CC3C14F6FD00DE528C3A2E6A0718CB4F030D9E06930B68AD"
+    },
+    {
+      "path": "golf/bacgiang/bacgiang-corn-hill-luc-nam-bac-giang/index.html",
+      "bytes": 67346,
+      "sha256": "071F322C7ADC335BE0B0A9CAC15B7BC85F43A26E6FCE6FFAE85AB45E36712679"
+    },
+    {
+      "path": "golf/binhduong/binhduong-royal-island-golf-and-villas/index.html",
+      "bytes": 67411,
+      "sha256": "546CFEA1A5799F68CEDA835846CDDC3FBC7AE2DDF766A455B2FDF35AF6EA6D38"
+    },
+    {
+      "path": "golf/dalat/dalat-dalat-at-1200-golf-club/index.html",
+      "bytes": 67324,
+      "sha256": "9E275038894314F190ABCB989EE17BC87408084EE267A61B3102DB0028F01AF5"
+    },
+    {
+      "path": "golf/dalat/dalat-dalat-palace-golf-club/index.html",
+      "bytes": 67373,
+      "sha256": "E93661CC7CAFD8DE2B0943B82A028F11D3309671BC9E962083BC50F05D1221B7"
+    },
+    {
+      "path": "golf/dalat/dalat-sam-tuyen-lam-golf-resort/index.html",
+      "bytes": 67358,
+      "sha256": "D4FC99C121B412D788EC287273B138BB13B802217D391B70CB42EED008590D2B"
+    },
+    {
+      "path": "golf/danang/danang-ba-na-hills-golf-club/index.html",
+      "bytes": 67396,
+      "sha256": "465380B5B522F969AF5B5022AFA40006DC8D801519C4447FAF7536E6383CD044"
+    },
+    {
+      "path": "golf/danang/danang-legend-da-nang-golf-resort/index.html",
+      "bytes": 67540,
+      "sha256": "774933252A1890BD467E786352EE500D97A794E5F5B94AB6217478BBAE925F43"
+    },
+    {
+      "path": "golf/danang/danang-montgomerie-links-golf-club/index.html",
+      "bytes": 67612,
+      "sha256": "9D07F7AB18AA7C3266360889F59170E816504E379CE565D56648C68E0C88F9B9"
+    },
+    {
+      "path": "golf/haiphong/haiphong-dragon-golf-links/index.html",
+      "bytes": 67518,
+      "sha256": "7BC8D903CE9BAAE8DDEB7BB039FB50A39388385A51A61ACBD4F3639A38719ADB"
+    },
+    {
+      "path": "golf/haiphong/haiphong-ruby-tree-golf-resort/index.html",
+      "bytes": 67498,
+      "sha256": "9240F89FAA2FFB7D3B4E1D331A75413A599A12B0652C670C30FE10B34926327B"
+    },
+    {
+      "path": "golf/haiphong/haiphong-sono-felice-country-club/index.html",
+      "bytes": 67549,
+      "sha256": "8F5937B38A20479587C0FD91BE1596D691ADD86EB83AAA0E13908FFEC926ED4B"
+    },
+    {
+      "path": "golf/haiphong/haiphong-vinpearl-golf-hai-phong/index.html",
+      "bytes": 67560,
+      "sha256": "7175A53337D707AE2B0D4C0D9E4865EC53DC886E42A6813147D42F7C83DF02A4"
+    },
+    {
+      "path": "golf/halong/halong-flc-golf-club-ha-long/index.html",
+      "bytes": 67219,
+      "sha256": "24FC8342A9DAB8CB17255DD846EC2C7E72DD311C59C604BD104EA347D59CD29B"
+    },
+    {
+      "path": "golf/halong/halong-tuan-chau-golf-and-resort/index.html",
+      "bytes": 67271,
+      "sha256": "CB11B0110363116DF4A5331C015254EB524B892846D1F6359A5C02607CB363B0"
+    },
+    {
+      "path": "golf/hanam/hanam-legend-valley-country-club/index.html",
+      "bytes": 67316,
+      "sha256": "8550E5AFE013D27D9602B90DDB1A0990D85B254C02EF1131F93274B8EF4AC25E"
+    },
+    {
+      "path": "golf/hanam/hanam-stone-valley-golf-and-resort/index.html",
+      "bytes": 67295,
+      "sha256": "D680ADC98802836B05148E8F2C036F1B615C197DDC84EE32F122F7C7DC299CF7"
+    },
+    {
+      "path": "golf/hanoi/hanoi-chi-linh-golf-club/index.html",
+      "bytes": 68094,
+      "sha256": "318CA94994BD2AFD7EAD40AD9D8E87DE8BCC3F78790F795077389CD9B59C9495"
+    },
+    {
+      "path": "golf/hanoi/hanoi-dai-lai-golf-club/index.html",
+      "bytes": 68008,
+      "sha256": "114D95B14260A3BED5CDCE80530BAB1F6D07DF26695988E5C51F1B294BDE6045"
+    },
+    {
+      "path": "golf/hanoi/hanoi-hanoi-golf-club/index.html",
+      "bytes": 67850,
+      "sha256": "8668C97832BFF36D96D104435E652EFF4987DDE590D8BC8F4A018285E15AC181"
+    },
+    {
+      "path": "golf/hanoi/hanoi-heron-lake-golf-course/index.html",
+      "bytes": 68138,
+      "sha256": "CA346C4E990BC5C55F34558FF0DD2634CD817BD364AD3C96F1EC9DC8B46C93C4"
+    },
+    {
+      "path": "golf/hanoi/hanoi-hilltop-valley-golf-club/index.html",
+      "bytes": 68205,
+      "sha256": "9E1D24B459AAA65655A6D6FF752588CB77E1DF193FA40EEDDC6B25BD6F170C2F"
+    },
+    {
+      "path": "golf/hanoi/hanoi-king-s-island-golf-resort/index.html",
+      "bytes": 68357,
+      "sha256": "7824BDBA627A5B5E19C543C1EAC84B7DAA83A8FC289BF57D8C536A3A8925DE99"
+    },
+    {
+      "path": "golf/hanoi/hanoi-legend-hill-country-club/index.html",
+      "bytes": 67855,
+      "sha256": "76BAD61AC8DA49473209744A8E8A890058EEE5AACE8E2326B56D848ECD5FAA9B"
+    },
+    {
+      "path": "golf/hanoi/hanoi-long-bien-golf-course/index.html",
+      "bytes": 68113,
+      "sha256": "28FEF962FA159C1A0AF48D51AA8360F324FB72E461439751608C6CF9A876083B"
+    },
+    {
+      "path": "golf/hanoi/hanoi-phoenix-golf-resort/index.html",
+      "bytes": 68301,
+      "sha256": "9042DD9D3EAE04FDB32E7AF502143A9D5F95010A738F91B32899271BBDBC4E94"
+    },
+    {
+      "path": "golf/hanoi/hanoi-sky-lake-resort-and-golf-club/index.html",
+      "bytes": 68338,
+      "sha256": "172FA1D95E25E29B38C31277CEE2A20A9481D00F50EEB80E2A86459A2135048C"
+    },
+    {
+      "path": "golf/hanoi/hanoi-tam-dao-golf-and-resort/index.html",
+      "bytes": 68219,
+      "sha256": "628721052CC52D279CE529806F95C27A4A36A56F70F72D95D10791CC60869B47"
+    },
+    {
+      "path": "golf/hanoi/hanoi-thanh-lanh-valley-golf-and-resort/index.html",
+      "bytes": 68205,
+      "sha256": "E60DCB54A99776DFFB80AEC02A8A3CECD4A1EF429EDA6EBE4DCA80DBE30F6F61"
+    },
+    {
+      "path": "golf/hanoi/hanoi-van-tri-golf-club/index.html",
+      "bytes": 67617,
+      "sha256": "04689D672670C22B66CA53A8E92AB3AE0F4F9681C07032CFF757397A1A5DD2B6"
+    },
+    {
+      "path": "golf/hatinh/hatinh-muong-thanh-golf-club-xuan-thanh/index.html",
+      "bytes": 67380,
+      "sha256": "CC5440F4604CAC02DD493C13B34C61E44FB20D093E9C0A204CDD5F0B18E8ADBC"
+    },
+    {
+      "path": "golf/hoabinh/hoabinh-asean-onsen-golf-resort/index.html",
+      "bytes": 67316,
+      "sha256": "B51D615C1023A3CDB2F3C0478029126827F479C4CC69D70180AB6F790F123108"
+    },
+    {
+      "path": "golf/hochiminh/hochiminh-dong-nai-golf-resort/index.html",
+      "bytes": 67959,
+      "sha256": "C80035C5A27F91733D68B2FC0D3552D30D1716BD61BBC5072468587AC63D12F1"
+    },
+    {
+      "path": "golf/hochiminh/hochiminh-emerald-country-club-taekwang-jeongsan-country-club/index.html",
+      "bytes": 68471,
+      "sha256": "44C47B9B3C00D7DAC17798B808816B6C73ED691185DA80FC9CF06A8B3939C25F"
+    },
+    {
+      "path": "golf/hochiminh/hochiminh-harmonie-golf-park/index.html",
+      "bytes": 68221,
+      "sha256": "8DA52835C17B13066A6BFF22C9BE64F3E6EC7AF00F285F9BF77B29B1F8179934"
+    },
+    {
+      "path": "golf/hochiminh/hochiminh-long-thanh-golf-club/index.html",
+      "bytes": 67826,
+      "sha256": "435B28DBF72BD1C8A5749768998A3B68D35BFF013AF607D2D0E05F223C0826F5"
+    },
+    {
+      "path": "golf/hochiminh/hochiminh-song-be-golf-resort/index.html",
+      "bytes": 68044,
+      "sha256": "DA05CD3492A1EA56140CFEE0AC9AEF75667236710FE315850791D66CB6DC194D"
+    },
+    {
+      "path": "golf/hochiminh/hochiminh-tan-son-nhat-golf-course/index.html",
+      "bytes": 68112,
+      "sha256": "C1DE6EB1B97BB02750CC37F0FC62994FFBF13B64A5A5A2F55105034694684E86"
+    },
+    {
+      "path": "golf/hochiminh/hochiminh-twin-doves-golf-club/index.html",
+      "bytes": 68263,
+      "sha256": "3461839BE4A0A506DC3711B6657488A066FC7FB18B094F8D89B725F232F43917"
+    },
+    {
+      "path": "golf/hochiminh/hochiminh-vietnam-golf-and-country-club/index.html",
+      "bytes": 68236,
+      "sha256": "743BFCA3F776245FE77E99C86265B0B9E5ACFB101EECB492911693A44C95024E"
+    },
+    {
+      "path": "golf/hochiminh/hochiminh-vinpearl-golf-leman/index.html",
+      "bytes": 67863,
+      "sha256": "0F898B42D32219B38E79744C8EFCFAC575D0C840DE5A853FCBDB95EF09968B24"
+    },
+    {
+      "path": "golf/hoian/hoian-hoiana-shores-golf-club/index.html",
+      "bytes": 67402,
+      "sha256": "3768EDE010FAF726FE7AED5C135A1A34F755E01975E4A8B0CC0B87A68D5ABB26"
+    },
+    {
+      "path": "golf/hoian/hoian-vinpearl-golf-nam-hoi-an/index.html",
+      "bytes": 67379,
+      "sha256": "76DED11C90636FEDBADFDEAD31D8318DEF73BC6D6D4CF711E08579CEB6495DED"
+    },
+    {
+      "path": "golf/hue/hue-golden-sands-golf-resort/index.html",
+      "bytes": 67232,
+      "sha256": "50C4025FB33C0F1DEF33D39B316B78E4CD21CFF34AEABF0A7F49E82E0040B247"
+    },
+    {
+      "path": "golf/hue/hue-laguna-golf-lang-co/index.html",
+      "bytes": 67235,
+      "sha256": "B2F5AFE88D6B739EEC1C29BF41DDFEFFBA4B49C6719B1E209AA9BBFCC3ED8895"
+    },
+    {
+      "path": "golf/laocai/laocai-sapa-grand-golf-course/index.html",
+      "bytes": 67330,
+      "sha256": "67C8C13EE3E0617C4F631B57AA56A95B9D78EA4E8008A9C4CF6656BAC564603E"
+    },
+    {
+      "path": "golf/longan/longan-royal-long-an-golf-and-country-club/index.html",
+      "bytes": 67363,
+      "sha256": "A538F9D84792FB74B402D2B9B5AA5065B95A1D652BFC412761A428C3FF1D206F"
+    },
+    {
+      "path": "golf/longan/longan-west-lakes-golf-and-villa/index.html",
+      "bytes": 67402,
+      "sha256": "972F2E01B4CF9FB746251A68762434DE0E9A8886659F6DBB60D054054B8F80F5"
+    },
+    {
+      "path": "golf/nghean/nghean-cua-lo-golf-and-resort/index.html",
+      "bytes": 67259,
+      "sha256": "0CB388D2DC1C7E63E93BDFA75D4AB98237D1AC0272B6A6DA5A2B091AF1DEEAA1"
+    },
+    {
+      "path": "golf/nghean/nghean-muong-thanh-golf-club-dien-lam/index.html",
+      "bytes": 67429,
+      "sha256": "808B99DECC790F1B7EDFE28E6C39C0AA70DDC656C5C5087B7345C9B46F476414"
+    },
+    {
+      "path": "golf/nhatrang/nhatrang-anara-binh-tien-golf-club/index.html",
+      "bytes": 67574,
+      "sha256": "7DD4DF730CAC29C56302B5400F00FB1E1027A4D1894A03249EBD569B62DB8C47"
+    },
+    {
+      "path": "golf/nhatrang/nhatrang-diamond-bay-golf-and-villas/index.html",
+      "bytes": 67606,
+      "sha256": "46F6DAC318C048FF742FC9AC84C0E14E78AE8B82DC9A07FF95C37A75FA757D4B"
+    },
+    {
+      "path": "golf/nhatrang/nhatrang-kn-golf-links-cam-ranh/index.html",
+      "bytes": 67984,
+      "sha256": "70A75607B29B5E32A86CBBD34DBF8918513EA17EAEFF2FC63972BED1F902F613"
+    },
+    {
+      "path": "golf/nhatrang/nhatrang-vinpearl-golf-nha-trang/index.html",
+      "bytes": 67577,
+      "sha256": "3D09905474B0637FB1C3DC5BE68F11E46B3C7DE5C930B28375EEE2647DD8D87B"
+    },
+    {
+      "path": "golf/ninhbinh/ninhbinh-royal-golf-course/index.html",
+      "bytes": 67284,
+      "sha256": "4D1238B2334D77648AB5F0F58131EFE6C4E8C995019C37CBDE219B68769B90B6"
+    },
+    {
+      "path": "golf/ninhbinh/ninhbinh-trang-an-golf-and-resort/index.html",
+      "bytes": 67216,
+      "sha256": "F6B45602F7BD29397B0132B189D88FD61B4ED1EFC6416C4ABB43B5BCC6404E6D"
+    },
+    {
+      "path": "golf/north/north-montana-golf-course-new/index.html",
+      "bytes": 67289,
+      "sha256": "3EB1D02B7AF7EFBFA82DE1F7C29EC740633C90451B50708AB7D7FC594CBE89BA"
+    },
+    {
+      "path": "golf/phanthiet/phanthiet-novaworld-phan-thiet-golf-club/index.html",
+      "bytes": 67632,
+      "sha256": "D16249E215BEA4DA27EC803533F1645E99435A38D70A995B9CF6835FD5175587"
+    },
+    {
+      "path": "golf/phanthiet/phanthiet-sea-links-golf-and-country-club/index.html",
+      "bytes": 67524,
+      "sha256": "AD0A0734C6D5E7142406F6622F6D4344854405099356B3B712B9A5A258DA2579"
+    },
+    {
+      "path": "golf/phuquoc/phuquoc-eschuri-vung-bau-phu-quoc/index.html",
+      "bytes": 67531,
+      "sha256": "B9CF584ABEE8E0AA4AD2B7D8579A01B5717936372BFE6FF953496580726B8CBF"
+    },
+    {
+      "path": "golf/phuquoc/phuquoc-vinpearl-golf-phu-quoc/index.html",
+      "bytes": 67344,
+      "sha256": "F69EC2BDCD005CE19E591C52934436DFE66B24420F8BF11661E0A32FA8AFA346"
+    },
+    {
+      "path": "golf/phutho/phutho-stone-highland-golf-and-resort/index.html",
+      "bytes": 67397,
+      "sha256": "3622E225F415A7FF04F0F8008D797BCFDB715A2D34A8171D59DBD323DFE75585"
+    },
+    {
+      "path": "golf/phutho/phutho-van-lang-empire-golf-club/index.html",
+      "bytes": 67369,
+      "sha256": "9067B737C6EDFA06510AF0171F161AAF0D7BF4A4C952CC13FBC7E04262C5CA87"
+    },
+    {
+      "path": "golf/quangninh/quangninh-mong-cai-golf-club/index.html",
+      "bytes": 67258,
+      "sha256": "69FDC7BCEF756744EDD03C29326C97F9301741E89DB20AAF844258B2C69C52BB"
+    },
+    {
+      "path": "golf/quangninh/quangninh-silk-path-dong-trieu-golf-and-country-club/index.html",
+      "bytes": 67578,
+      "sha256": "66321F4DA050C19841F9A9AC4606368854A5D929675A8324B8C3D1789E480C27"
+    },
+    {
+      "path": "golf/quangtri/quangtri-blue-diamond-golf-link-quang-tri/index.html",
+      "bytes": 67559,
+      "sha256": "1B20270CAE525307DDEE8371C54750BDFEACE0BEDF2771145BA6C4DC1DF7FD2A"
+    },
+    {
+      "path": "golf/quangtri/quangtri-flc-golf-links-quang-tri/index.html",
+      "bytes": 67300,
+      "sha256": "121621EAF035A326E5E56AB9926F6528679516B39FC04ECF379F74AA7FF446E1"
+    },
+    {
+      "path": "golf/quynhon/quynhon-flc-golf-links-quy-nhon/index.html",
+      "bytes": 67211,
+      "sha256": "9AB36D513433C03F4310BECD583708AA79307711F6596960961B41734C70019C"
+    },
+    {
+      "path": "golf/thainguyen/thainguyen-glory-golf-club-thai-nguyen/index.html",
+      "bytes": 67562,
+      "sha256": "EAC65E66CEBBF0B451743A9312FFCACEA92AC4DBA89162326DB856682C151AB3"
+    },
+    {
+      "path": "golf/thanhhoa/thanhhoa-flc-golf-links-sam-son/index.html",
+      "bytes": 67282,
+      "sha256": "DBB9387CEC96DF6E4B9E0AFAA0F4BA154689C52D9A565C8D36327B89A7CB9501"
+    },
+    {
+      "path": "golf/vungtau/vungtau-paradise-golf-and-resort/index.html",
+      "bytes": 67582,
+      "sha256": "DB58CB0D8762739D8E7EA95296936B647F72CF1C045C9F0934FEEB6BFE47E064"
+    },
+    {
+      "path": "golf/vungtau/vungtau-sonadezi-chau-uc-golf-course/index.html",
+      "bytes": 67583,
+      "sha256": "872929BA3F2F2B4E1784F40B8E2221A94FB0DB0BF734F7A1A55DBD2D426BA91E"
+    },
+    {
+      "path": "golf/vungtau/vungtau-the-bluffs-ho-tram-strip/index.html",
+      "bytes": 67527,
+      "sha256": "1D700CE3A54E24914695709E3B25D0082114A80C50215BC75F7F6373600E2863"
+    },
+    {
+      "path": "golf/yenbai/yenbai-yen-bai-star-golf/index.html",
+      "bytes": 67266,
+      "sha256": "2FB5A71DC25ECE74B1058C3725B8E41EA6B98C79FEA457C0C4829150CC75D099"
+    },
+    {
+      "path": "google42ff51d2f339800e.html",
+      "bytes": 54,
+      "sha256": "5D108189C717EBC7D5B0CE92D5AB2CAE522FCD7D26A9E356BF2243E62C4D7E9C"
+    },
+    {
+      "path": "guide/2n3d/index.html",
+      "bytes": 64436,
+      "sha256": "F49E26156981BB76C3A80D8793D5977DEBC15FABEFA8C4171BC349955E2AE3C1"
+    },
+    {
+      "path": "guide/3n5d/index.html",
+      "bytes": 64448,
+      "sha256": "47C3CF6C08532FF5E530822F566AA7460A82E66A27A7BE804896CDB46B74A23D"
+    },
+    {
+      "path": "guide/4n5d-three-rounds/index.html",
+      "bytes": 64742,
+      "sha256": "986E5050B7CAC6DDDF85B713F30106B6713516124E48247DD672B7642DA6A25D"
+    },
+    {
+      "path": "guide/accommodation/index.html",
+      "bytes": 64566,
+      "sha256": "5C9B126714384AA5AAE0AC418B82E247916112466949C2AF12CC0A6DFD7B08BF"
+    },
+    {
+      "path": "guide/arrival-day-airport-hotel-golfbag-plan/index.html",
+      "bytes": 66711,
+      "sha256": "8E70557AF35CDBE816857C38803746BA1B46F85F2E7A9F55F62769FC527C61E2"
+    },
+    {
+      "path": "guide/departure-day-round-risk-check/index.html",
+      "bytes": 64812,
+      "sha256": "07CE7CD172C3AC59835DC14BB1B41AF0CA0A26937CAB6E2C010B7C3ED68A9CCC"
+    },
+    {
+      "path": "guide/group/index.html",
+      "bytes": 64566,
+      "sha256": "0FCAC0AB93BB6F78455C0E8E8495047010D237D26A57BD5CAFE0EA90D63C4940"
+    },
+    {
+      "path": "guide/hochiminh-3n4d-two-round-buffer/index.html",
+      "bytes": 64868,
+      "sha256": "DDED481D4F454787410204F1A64C185AC3799479DC113D5C2D25822A14CF132C"
+    },
+    {
+      "path": "guide/hochiminh-golf-rest-day-plan/index.html",
+      "bytes": 66681,
+      "sha256": "00A3A1E0109EA8F8022669246063FD19A2649B8F306645F3201BDD2112980EEE"
+    },
+    {
+      "path": "guide/transport/index.html",
+      "bytes": 64421,
+      "sha256": "A2FE5B74C95AF5F37E0DBF83FFA9514CFFE4980141CCAFBB81CF669C9544CE12"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 437,
+      "sha256": "3FDF622C930968E9FD480C61D81B5386D8B42C3E7839718E1CA315911185ABFC"
+    },
+    {
+      "path": "index.html",
+      "bytes": 75942,
+      "sha256": "84D780BAE7DE59619BE98008484D39F0C77D0503FB74872C8C69140663B14CFB"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 302,
+      "sha256": "591C31911A88EA2C90667159E2B037C191F17641A21A6A20D6DAC8AFCCC6D184"
+    },
+    {
+      "path": "region/bacgiang/index.html",
+      "bytes": 64234,
+      "sha256": "1D355C8E04B25EC4C6B2CCEB2B2F07FD5A94C237C511617BEEAC3156BC1AA920"
+    },
+    {
+      "path": "region/binhduong/index.html",
+      "bytes": 63811,
+      "sha256": "F6B0B2710661CCF6CC518238E98B0FDFE3C5648BCC292599E15AF450D3944E10"
+    },
+    {
+      "path": "region/dalat/index.html",
+      "bytes": 64638,
+      "sha256": "CDDBD7FC44F65E5C3CD33BC30C04CA1CAB738C6EB9D33CE6BAB1F132078ABBC4"
+    },
+    {
+      "path": "region/danang/index.html",
+      "bytes": 64685,
+      "sha256": "E3677CF4E214C7F01483E31287664E9899FE75A950CE0D540D6B38DFABFC685E"
+    },
+    {
+      "path": "region/haiphong/index.html",
+      "bytes": 65193,
+      "sha256": "029C8C8DB6F31667F90986C96E6A03E388B97D39D8CA5A06C5C3323BDA57401C"
+    },
+    {
+      "path": "region/halong/index.html",
+      "bytes": 64185,
+      "sha256": "0EF7E7E97AAA985E2588F9AEA256AFE84CBA143149DB24CE4D9F281A55A57870"
+    },
+    {
+      "path": "region/hanam/index.html",
+      "bytes": 64209,
+      "sha256": "9EF06E680875BF7EF15973B0031D24DB85113E9C9B68FBA8375DA0D22B50B66F"
+    },
+    {
+      "path": "region/hanoi/index.html",
+      "bytes": 69288,
+      "sha256": "2EC11CEC29D503CB0E7BCF00C534EA17268F1823AF8387E4913695E3D79858FF"
+    },
+    {
+      "path": "region/hatinh/index.html",
+      "bytes": 63772,
+      "sha256": "681B71B50AA813FFB3136C960D070A375F401669F0303FC08C5D4BC61242DC19"
+    },
+    {
+      "path": "region/hoabinh/index.html",
+      "bytes": 63774,
+      "sha256": "974C1C64117E8773E32B7A7F070B5EA6327C545F86707D45C6BE01E65F3A2A16"
+    },
+    {
+      "path": "region/hochiminh/index.html",
+      "bytes": 67618,
+      "sha256": "7EEDC6C23B1FC97FCBBE54EC546FFC78797576D08EF98830033F7B2E8C7CC9CE"
+    },
+    {
+      "path": "region/hoian/index.html",
+      "bytes": 64251,
+      "sha256": "031022086D97269E47F49D7C5FF6B9D5739E1E16E34C682C61FC22980155164E"
+    },
+    {
+      "path": "region/hue/index.html",
+      "bytes": 64152,
+      "sha256": "4E852E6C17BEC08B262CF33A040CC413651D1ADB8B731F5971DF987E07CFD2FF"
+    },
+    {
+      "path": "region/laocai/index.html",
+      "bytes": 63797,
+      "sha256": "718C33B07D29904BD8BA6B3F28D524D7052C713697933DA60ADCE86493BFCC41"
+    },
+    {
+      "path": "region/longan/index.html",
+      "bytes": 64252,
+      "sha256": "6E70149BC561D7315A9566A73F975B302A027B6DCF2A44E1C3FD1AC01B75C4C1"
+    },
+    {
+      "path": "region/nghean/index.html",
+      "bytes": 64257,
+      "sha256": "E2D0732826A1D9BB3D3D1EB32CFCAA065836FFAE77EF27494FEC6BA5A463E2A8"
+    },
+    {
+      "path": "region/nhatrang/index.html",
+      "bytes": 65284,
+      "sha256": "441B698CECA4B54D04CA55D70736611315EFE7C208EB9606D1E86AA69D849F94"
+    },
+    {
+      "path": "region/ninhbinh/index.html",
+      "bytes": 64189,
+      "sha256": "22A2897CACA3D7A61AA287C99A1A2B925BC2FF2D42DA6908C75C99F627450E3F"
+    },
+    {
+      "path": "region/north/index.html",
+      "bytes": 63825,
+      "sha256": "1EA70816F8E20B1920E7858872C4ED031464024DA7364372E99DDCAE0EE56A24"
+    },
+    {
+      "path": "region/phanthiet/index.html",
+      "bytes": 64468,
+      "sha256": "AF9DB08FF3ACEC2EBA61DA8BE1A40ADCBC0505C4CE94033FC2EF398D0F5705C0"
+    },
+    {
+      "path": "region/phuquoc/index.html",
+      "bytes": 64276,
+      "sha256": "343330E22AAD39E5F81BDCF3B8A99CE64593967C993E6FA16748DB041B5EAFE8"
+    },
+    {
+      "path": "region/phutho/index.html",
+      "bytes": 64240,
+      "sha256": "E8F63459FB2B0661E4F5FD2B483A4300B7ECB197C8BA34990A28E76956636ED8"
+    },
+    {
+      "path": "region/quangninh/index.html",
+      "bytes": 64281,
+      "sha256": "95415A1D251C706C81997BA54EB07E013BB75D64306580767779C4C9E8E77C69"
+    },
+    {
+      "path": "region/quangtri/index.html",
+      "bytes": 64275,
+      "sha256": "A1BF5BF591961DAAFD72CA5B2B6D6299DA47F617940F5DF4FAC966B8E609B44F"
+    },
+    {
+      "path": "region/quynhon/index.html",
+      "bytes": 63729,
+      "sha256": "21859DC563EA8E0A04DCD69B87537B22732A582B7F4584A2F3FA4CAA71AC8512"
+    },
+    {
+      "path": "region/thainguyen/index.html",
+      "bytes": 63895,
+      "sha256": "160620EBDF860015D467660D30F20636D13FF51656D25E699FF7BD5D8EDB5EF6"
+    },
+    {
+      "path": "region/thanhhoa/index.html",
+      "bytes": 63799,
+      "sha256": "4637CCA52CB4EB09AFE05CF3BA54AE28296F37789DD8CE105B6C0B4151944140"
+    },
+    {
+      "path": "region/vungtau/index.html",
+      "bytes": 64792,
+      "sha256": "F0678F749131042496BBEC997AF8EC2D5A05FBA8FD225154E0A6B3390DEB0F33"
+    },
+    {
+      "path": "region/yenbai/index.html",
+      "bytes": 63751,
+      "sha256": "0F9E43FAF2CE4707C9F4F76EE6EB5BFA92808DB220869A3EE5AD83F5E10FF785"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 84,
+      "sha256": "2865A465FE77044EF01064DD347FDB9E3741323C3ADDFEFF5DB0969A964A965D"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 20823,
+      "sha256": "E9FE59C6F5592C23229E0F9A7408767FBBFA3F2433B09B17427740334E61A1CA"
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 860,
+      "sha256": "19BA30B89D3F078E85BFF7AE01771322C9716B8879E0A576B7160281E4E3737D"
+    }
+  ]
+}

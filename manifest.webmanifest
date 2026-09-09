@@ -1,0 +1,15 @@
+{
+  "name": "베트남 골프플래너",
+  "short_name": "베트남 골프플래너",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07110d",
+  "theme_color": "#87b9ff",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
