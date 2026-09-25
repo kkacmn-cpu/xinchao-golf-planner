@@ -159,6 +159,21 @@
 .timeline li.open {
   border-style: dashed;
 }
+.timeline li.selected {
+  border-color: var(--accent);
+  background: #172f51;
+}
+.timeline li button.day-select {
+  position: static;
+  display: block;
+  width: auto;
+  height: auto;
+  margin-top: 8px;
+  padding: 4px 0;
+  color: #bcd4ff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .timeline-empty {
   display: grid;
   place-items: center !important;
@@ -184,6 +199,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 11px;
+}
+.planner-course-status {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 14px;
 }
 .course-option {
   min-height: 112px;
