@@ -22,17 +22,23 @@
   const players = $('#planner-players');
   const error = $('#planner-error');
   let plan = { dates: [], requested: 0, assignments: {} };
-  const toIso = (date) => date.toISOString().slice(0, 10);
-  const arrivalDefault = new Date(Date.now() + 86400000 * 21);
-  const departureDefault = new Date(arrivalDefault.getTime() + 86400000 * 3);
-  arrival.value = toIso(arrivalDefault);
-  departure.value = toIso(departureDefault);
-  arrival.min = toIso(new Date());
+  const toLocalDate = (date) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+  const arrivalDefault = new Date();
+  arrivalDefault.setDate(arrivalDefault.getDate() + 21);
+  const departureDefault = new Date(arrivalDefault);
+  departureDefault.setDate(departureDefault.getDate() + 3);
+  arrival.value = toLocalDate(arrivalDefault);
+  departure.value = toLocalDate(departureDefault);
+  arrival.min = toLocalDate(new Date());
   departure.min = arrival.value;
 
   function calendarDays(start, end) {
     const days = [];
-    for (let cursor = new Date(`${start}T00:00:00`), last = new Date(`${end}T00:00:00`); cursor <= last; cursor = new Date(cursor.getTime() + 86400000)) days.push(toIso(cursor));
+    // Date-only input is a calendar day, not a local instant. UTC arithmetic
+    // keeps the displayed day unchanged in Vietnam, Korea, and DST timezones.
+    for (let cursor = Date.parse(`${start}T00:00:00Z`), last = Date.parse(`${end}T00:00:00Z`); cursor <= last; cursor += 86400000) {
+      days.push(new Date(cursor).toISOString().slice(0, 10));
+    }
     return days;
   }
   function save() {
