@@ -25,14 +25,14 @@
   let selectedDate = null;
   const roundDates = () => plan.dates.slice(1, -1);
   const assignedCount = () => roundDates().filter((dateValue) => plan.assignments[dateValue]).length;
-  const toLocalDate = (date) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
-  const arrivalDefault = new Date();
-  arrivalDefault.setDate(arrivalDefault.getDate() + 21);
-  const departureDefault = new Date(arrivalDefault);
-  departureDefault.setDate(departureDefault.getDate() + 3);
-  arrival.value = toLocalDate(arrivalDefault);
-  departure.value = toLocalDate(departureDefault);
-  arrival.min = toLocalDate(new Date());
+  const vietnamDay = () => new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Ho_Chi_Minh', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).format(new Date());
+  const addCalendarDays = (day, count) => new Date(Date.parse(`${day}T00:00:00Z`) + count * 86400000).toISOString().slice(0, 10);
+  const today = vietnamDay();
+  arrival.value = addCalendarDays(today, 21);
+  departure.value = addCalendarDays(arrival.value, 3);
+  arrival.min = today;
   departure.min = arrival.value;
 
   function calendarDays(start, end) {
@@ -74,6 +74,7 @@
   function buildPlan(persist = true) {
     error.hidden = true;
     if (!region.value) { error.textContent = '주요 지역을 선택하세요.'; error.hidden = false; return false; }
+    if (arrival.value < vietnamDay()) { error.textContent = '베트남 현지 날짜보다 이전에는 도착할 수 없습니다.'; error.hidden = false; return false; }
     if (!arrival.value || !departure.value || departure.value <= arrival.value) { error.textContent = '출국일은 도착일보다 늦어야 합니다.'; error.hidden = false; return false; }
     const dates = calendarDays(arrival.value, departure.value);
     const requested = Number(rounds.value);

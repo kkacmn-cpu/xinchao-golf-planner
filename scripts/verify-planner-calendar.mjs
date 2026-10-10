@@ -40,7 +40,11 @@ if (process.argv[2] !== '--child') {
     setItem(key, value) { writes.push({ key, value }); },
     removeItem() {},
   };
-  runInNewContext(source, { document, localStorage, Date, JSON, Number, Object, Set, String });
+  class FixedDate extends Date {
+    constructor(...args) { super(...(args.length ? args : ['2026-10-10T16:30:00Z'])); }
+  }
+  runInNewContext(source, { document, localStorage, Date: FixedDate, Intl, JSON, Number, Object, Set, String });
+  assert.equal(element('#planner-arrival').min, '2026-10-10');
 
   function submit(start, end, requested) {
     element('#planner-region').value = 'hochiminh';
@@ -58,7 +62,7 @@ if (process.argv[2] !== '--child') {
 
   for (const [start, end, middle] of [
     ['2026-10-16', '2026-10-19', ['2026-10-17', '2026-10-18']],
-    ['2026-03-07', '2026-03-10', ['2026-03-08', '2026-03-09']],
+    ['2027-03-07', '2027-03-10', ['2027-03-08', '2027-03-09']],
     ['2026-11-01', '2026-11-04', ['2026-11-02', '2026-11-03']],
   ]) {
     const html = submit(start, end, 2);
@@ -70,6 +74,10 @@ if (process.argv[2] !== '--child') {
   }
 
   const writeCount = writes.length;
+  submit('2026-10-09', '2026-10-12', 2);
+  assert.equal(element('#planner-error').hidden, false);
+  assert.match(element('#planner-error').textContent, /베트남 현지 날짜/);
+  assert.equal(writes.length, writeCount);
   submit('2026-10-16', '2026-10-19', 4);
   assert.equal(element('#planner-error').hidden, false);
   assert.match(element('#planner-error').textContent, /최대 2회/);
