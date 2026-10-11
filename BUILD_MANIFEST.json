@@ -1,7 +1,7 @@
 {
   "site": "planner",
   "origin": "https://xinchao-golf-planner.vercel.app",
-  "built_at": "2026-10-10T14:32:05.021Z",
+  "built_at": "2026-10-11T05:42:00Z",
   "source_registry": "XINCHAO_NATIONWIDE_AEO_STRATEGY_COVERAGE_V1_20260821",
   "source_registry_sha256": "AD6E7F2DEA38F5C060CA423793CEC2CB1C7B676993274117ACADA693592C360D",
   "price_dataset": null,
@@ -9,7 +9,7 @@
   "course_count": 74,
   "region_count": 29,
   "current_priced_course_count": 0,
-  "url_count": 142,
+  "url_count": 143,
   "tracker_id": "xinchao-golf-planner",
   "files": [
     {
@@ -568,6 +568,11 @@
       "sha256": "48AA82D31CF1189D5DAEF6479DA1BC5382E6BBD698B9ED73EEABF3E83773A321"
     },
     {
+      "path": "guide/phu-quoc-vinpearl-stay-play-2026-room-round-transfer-plan/index.html",
+      "bytes": 10646,
+      "sha256": "80898D149639217479BD26F68BE91EE85FB37BFFC54DF269D2077E5D22CA1AE2"
+    },
+    {
       "path": "guide/round-next-day-flight-transfer-plan/index.html",
       "bytes": 8312,
       "sha256": "8E6C55AF3867F71EDB76A9FE93A3CA2F490444E2B6A5E87E2B52990B4EA9848A"
@@ -629,8 +634,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 48263,
-      "sha256": "263EC395D0204321DD2CC52FB4E83BEDA0BC910390DFE868A70B2855F5E9D9F4"
+      "bytes": 48749,
+      "sha256": "746C5E264FE69626DB56CDE4D5B21A8312BC71FEB4B241523C4F786107C52B5F"
     },
     {
       "path": "manifest.webmanifest",
@@ -789,8 +794,8 @@
     },
     {
       "path": "sitemap.xml",
-      "bytes": 28865,
-      "sha256": "74D6B5E46BD1351CD3EF1C0A1BA1A87A411853853C24B31B74445655EC2ACAC1"
+      "bytes": 29075,
+      "sha256": "405637C757B5DC6EC2817AE8801D10C8E4922FC692E14908F31C3FE84C240D28"
     }
   ]
 }
