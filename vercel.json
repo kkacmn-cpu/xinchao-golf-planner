@@ -510,12 +510,12 @@
       "statusCode": 301
     },
     {
-      "destination": "https://xinchao-golf.vercel.app/guide",
+      "destination": "https://xinchao-golf.vercel.app/guide/hoiana-golf-family-non-golfer-plan.html",
       "source": "/guide/hoiana-golf-family-non-golfer-plan",
       "statusCode": 301
     },
     {
-      "destination": "https://xinchao-golf.vercel.app/guide",
+      "destination": "https://xinchao-golf.vercel.app/guide/hoiana-golf-family-non-golfer-plan.html",
       "source": "/guide/hoiana-golf-family-non-golfer-plan/",
       "statusCode": 301
     },
