@@ -45,6 +45,21 @@
       "permanent": true
     },
     {
+      "source": "/",
+      "destination": "https://xinchao-golf.vercel.app/golf-itinerary",
+      "permanent": true
+    },
+    {
+      "source": "/guide",
+      "destination": "https://xinchao-golf.vercel.app/golf-itinerary",
+      "permanent": true
+    },
+    {
+      "source": "/guide/",
+      "destination": "https://xinchao-golf.vercel.app/golf-itinerary",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "destination": "https://xinchao-golf.vercel.app/$1",
       "permanent": true
