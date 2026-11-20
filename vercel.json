@@ -31,37 +31,37 @@
   "redirects": [
     {
       "source": "/region(/.*)?",
-      "destination": "https://xinchao-golf.vercel.app/regions",
+      "destination": "https://xinchaogolf.com/regions",
       "permanent": true
     },
     {
       "source": "/guide/:slug/",
-      "destination": "https://xinchao-golf.vercel.app/guide/:slug.html",
+      "destination": "https://xinchaogolf.com/guide/:slug.html",
       "permanent": true
     },
     {
       "source": "/guide/:slug",
-      "destination": "https://xinchao-golf.vercel.app/guide/:slug.html",
+      "destination": "https://xinchaogolf.com/guide/:slug.html",
       "permanent": true
     },
     {
       "source": "/",
-      "destination": "https://xinchao-golf.vercel.app/golf-itinerary",
+      "destination": "https://xinchaogolf.com/golf-itinerary",
       "permanent": true
     },
     {
       "source": "/guide",
-      "destination": "https://xinchao-golf.vercel.app/golf-itinerary",
+      "destination": "https://xinchaogolf.com/golf-itinerary",
       "permanent": true
     },
     {
       "source": "/guide/",
-      "destination": "https://xinchao-golf.vercel.app/golf-itinerary",
+      "destination": "https://xinchaogolf.com/golf-itinerary",
       "permanent": true
     },
     {
       "source": "/(.*)",
-      "destination": "https://xinchao-golf.vercel.app/$1",
+      "destination": "https://xinchaogolf.com/$1",
       "permanent": true
     }
   ]
